@@ -1,0 +1,35 @@
+.container {
+	margin: 20px auto;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 100px;
+	font-size: 48px;
+	cursor: pointer;
+}
+
+.score h3{
+	margin: 50px 0px;
+	display: inline;
+	padding: 10px;
+}
+
+.center form{
+	margin: 10% 40%;
+}
+

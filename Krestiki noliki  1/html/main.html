@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SCLOUD_1C_KRESTIKI_NOLIKI</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="../js/logik.js"  charset="utf-8"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="cell" id="cell-1" onclick="makeMove(1)"></div>
+			<div class="cell" id="cell-2" onclick="makeMove(2)"></div>
+			<div class="cell" id="cell-3" onclick="makeMove(3)"></div>
+		</div>
+		<div class="row">
+			<div class="cell" id="cell-4" onclick="makeMove(4)"></div>
+			<div class="cell" id="cell-5" onclick="makeMove(5)"></div>
+			<div class="cell" id="cell-6" onclick="makeMove(6)"></div>
+		</div>
+		<div class="row">
+			<div class="cell" id="cell-7" onclick="makeMove(7)"></div>
+			<div class="cell" id="cell-8" onclick="makeMove(8)"></div>
+			<div class="cell" id="cell-9" onclick="makeMove(9)"></div>
+		</div>
+	</div>
+	<div class="score">
+			<h3>X:</h3><h3 id="ScoreX">0</h3>
+			<h3>O:</h3><h3 id="ScoreO">0</h3>
+			<h3>T:</h3><h3 id="ScoreT">0</h3>
+		</div>
+	<div class="Play" id = "Iplayer">
+		<h3>Player1</h3><input type="" name="Player-1" id="Player">
+		<p></p>
+		<h3>Player2</h3><input type="" name="Player-2" id="Player2">
+		<p></p>
+    	<input type="submit" value="Задать время" onclick="Pgame()">
+
+	</div>
+</body>
